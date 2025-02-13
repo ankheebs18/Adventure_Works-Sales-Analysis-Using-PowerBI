@@ -1,30 +1,69 @@
 
-![AdventureWorks_Logo](https://user-images.githubusercontent.com/81569893/224526374-bb428d04-fc58-4e07-a1e8-e7aadfc04490.png)
+# Adventure_Works-Sales-Analysis-Using-PowerBI
+
+## Overview ##
+
+Welcome to the Adventure Works Sales Analysis Dashboard repository!
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ## Title :- Adventure_Works-Sales-Analysis-Using-PowerBI
+
+* ## Tool used:- 
+- Microsoft Excel
+- Microsoft Power Query
+- Microsoft Power BI
+- Dax Query
+- Data modeling
 
 
+# Adventure Works Analysis:
 
-# Adventure Works Analysis
-
-Adventure Works Cycles is a global manufacturing company,to 
-design and deliver an end-to-end business intelligence solution.
+Adventure Works Cycles is a global manufacturing company,to design and deliver an end-to-end business intelligence solution.
 
 Adventure Works Cycles needs a way to track KPIs (sales, revenue, profit, returns), compare regional performance, analyze product-level trends and forecasts, and identify high-value customers.
 
+## Features
 
+- Track key performance indicators (KPIs) related to sales, revenue, profit, and returns.
+- Compare performance across different regions.
+- Analyse product-level trends.
+- Identify high-value customers.
 
-## Contents
+## Project Highlights
 
-* Connect and transform the raw data
+This project involved the following tasks:
 
-* Creating table relationships and data models
+- connecting and transforming the raw data 
+- building a relational data model
+- creating calculated columns and measures using **DAX**
+- Created a rolling calendar using **PowerQuery M code**
+- building an interactive dashboard
 
-* Create new calculated columns and DAX measures
+## Dashboard Elements
 
-* Design an interactive report to analyze and visualize the data
+#### Executive Summary View
 
-## Documentation
+- high-level KPIs for revenue, profit, orders and return rates
+- page-level filtering by product and product category
+- drill-through per product to product detail view
 
-Check the datasets used in the project [Documentation](https://github.com/himanshu-004/AdventureWorks/tree/main/Documentation)
+#### Map View
+
+- total orders per country
+
+#### Product Detail View
+
+- per-product performance against order, revenue and profit targets
+- "what if" analysis via price adjustment shows adjusted profit
+
+#### Customer Detail View
+
+- total customer and per-customer revenue analysis
+
+#### Custom UI Elements
+
+- filter pane for filtering by year and geography
+- custom tooltip for product category order metrics
 
 
 ## Connect and transform the raw data
@@ -181,14 +220,18 @@ sort of calculation (not just a sum, count, etc); it may help to think of it lik
 
 * This options will provide to create Interactive visualization
 
-![image](https://user-images.githubusercontent.com/81569893/225971411-e7420d0e-a570-4f55-9bf6-74b5c8622c3d.png)
+### Insights
 
-Exec summary
+- Approximately $24.9 million in revenue and $10.5 million in profit was generated between 01/01/2020 and 30/06/2022. There is an appreciable dip in revenue between 01/06/2020 and 01/11/2020 (possibly due to the simulated impact of the COVID-19 pandemic), after which revenue appears to grow linearly. December 2021 was an exceptional year in terms of revenue at $1.64 million, and it would be worth investigated the cause of this. Was this due to a highly successful seasonal campaign, e.g. a Black Friday promotion?
 
+- Understandably, tires and tubes are the most ordered product type, while cycling shorts are the most returned product type. After mountain bike fenders, sports helmets top the list of revenue-generating products, despite having relatively high return rates
 
+- The most profitable product categories are clothing and accessories.
 
+- There is a step change (on the order of 200 customers per week) in total weekly customers beginning 02/08/2021.
 
-![image](https://user-images.githubusercontent.com/81569893/225971706-effdac39-23e7-4eb3-8788-b6b5e477ebcf.png)
+- However, revenue per customer has been declining year-on-year.
 
-Product detail
+- While the United States is the largest market with 8,700 orders and $7.94 million in total revenue, The Australian market has the largest revenue per customer at $2,131.
+
 
