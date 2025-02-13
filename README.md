@@ -15,20 +15,22 @@ Welcome to the Adventure Works Sales Analysis Dashboard repository!
 - Dax Query
 - Data modeling
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Adventure Works Analysis:
 
 Adventure Works Cycles is a global manufacturing company,to design and deliver an end-to-end business intelligence solution.
 
 Adventure Works Cycles needs a way to track KPIs (sales, revenue, profit, returns), compare regional performance, analyze product-level trends and forecasts, and identify high-value customers.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Features
 
 - Track key performance indicators (KPIs) related to sales, revenue, profit, and returns.
 - Compare performance across different regions.
 - Analyse product-level trends.
 - Identify high-value customers.
-
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Highlights
 
 This project involved the following tasks:
@@ -38,7 +40,8 @@ This project involved the following tasks:
 - creating calculated columns and measures using **DAX**
 - Created a rolling calendar using **PowerQuery M code**
 - building an interactive dashboard
-
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Dashboard Elements
 
 #### Executive Summary View
@@ -65,7 +68,7 @@ This project involved the following tasks:
 - filter pane for filtering by year and geography
 - custom tooltip for product category order metrics
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Connect and transform the raw data
 
 Access data from database tables, flat files, folders and 
@@ -188,8 +191,7 @@ With DAX we can
 
 * Use measures to create numerical, calculated values that can be analyzed in the “values” field of a report visual
 
-* Measures are evaluated based on filter context, which means 
-they recalculate when the fields or filters around them change 
+* Measures are evaluated based on filter context, which means they recalculate when the fields or filters around them change 
 (like when new row or column labels are pulled into a matrix or 
 when new filters are applied to a report)
 
@@ -219,8 +221,9 @@ sort of calculation (not just a sum, count, etc); it may help to think of it lik
 * The Power BI report view consist of various tools and visualization options such as Charts, Slicers, Maps, Matrices, etc Filters Pane such as Visual-Level, Page-Level, and Report-Level Filters
 
 * This options will provide to create Interactive visualization
-
-### Insights
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Insights
 
 - Approximately $24.9 million in revenue and $10.5 million in profit was generated between 01/01/2020 and 30/06/2022. There is an appreciable dip in revenue between 01/06/2020 and 01/11/2020 (possibly due to the simulated impact of the COVID-19 pandemic), after which revenue appears to grow linearly. December 2021 was an exceptional year in terms of revenue at $1.64 million, and it would be worth investigated the cause of this. Was this due to a highly successful seasonal campaign, e.g. a Black Friday promotion?
 
